@@ -1,4 +1,7 @@
 # chroma
+> [!CAUTION]
+> Just like Certipy, please only use this tool in contained, lab environments, or in authorized scenarios such as penetration tests with written authorization provided by your rules of engagement. 
+
 All in one Python script to exploit ADCS privilege escalation using [Certipy](https://github.com/ly4k/Certipy) by [ly4k](https://github.com/ly4k); methods I've seen in labs such as ESC1, ESC2, ESC3, ESC16,
 
 Named after the one and only Chroma who was helped me a bunch through learning blue team cybersec, HTB labs, etc.
