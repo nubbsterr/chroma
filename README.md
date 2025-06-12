@@ -12,7 +12,4 @@ Credit is due to [ly4k](https://github.com/ly4k) who created Certipy; I only mad
 3. I have consistently screwed up Certipy commands, between supplying the wrong UPN and facing odd clock-skew issues, so this is made to help me beat the horribl HTB servers and provide a more central approach to exploiting ADCS.
 
 # agenda
-I plan to write this in Python mainly using the `subprocess` module to call commands BUT I might make a Bash script alternative, or just write this in Bash entirely. Time will tell.
-
-User runs script, selects ESC to exploit. Inputs variables such as DC IP, UPN target, authenticating user and plaintext password or hash, domain CA, etc.
-Suggest evil-winrm to winrm onto DCs/other machines with port 5389 open to winrm, using hash given by Certipy.
+Just need to get ESC exploitation logic in place and das it; just a game of taking the Certipy commands and taking user input then running using `subprocess.run`. Will suggest evil-winrm to winrm onto DCs/other machines with port 5389 open to winrm, using hash given by Certipy post-exploitation. evil-winrm will need to be installed separately.
